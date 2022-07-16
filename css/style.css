@@ -64,3 +64,60 @@ html {
   color: black;
   border-bottom: 4px solid var(--color-primary);
 }
+
+.banner {
+  height: 712px;
+  position: relative;
+  margin-top: 200px;
+}
+.banner .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.banner-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 49px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.banner-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.banner-btn {
+  height: 67px;
+  width: 440px;
+  background: var(--color-primary) 0% 0% no-repeat padding-box;
+  box-shadow: 5px 10px 14px #07ace629;
+  border-radius: 40px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+a.btn {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+.banner img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.statistics,
+.benefits,
+.pricing {
+  height: 700px;
+}
