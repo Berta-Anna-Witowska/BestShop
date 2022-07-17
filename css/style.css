@@ -230,7 +230,7 @@ h2 {
   height: 1395px;
   background-color: var(--color-color-light-grey);
 }
-.benefits.container {
+.benefits-section.container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -281,19 +281,19 @@ h2 {
   background-color: var(--color-redish);
   transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
   border-radius: 41px;
-  width: 255px;
-  height: 255px;
+  width: 180px;
+  height: 180px;
   position: absolute;
-  top: 38px;
-  right: 50px;
+  top: 70px;
+  right: 100px;
 }
 
 .macbook {
   width: 386px;
   height: 219px;
   position: absolute;
-  right: 80px;
-  bottom: 20px;
+  right: 115px;
+  bottom: 38px;
 }
 
 .box2 {
@@ -400,7 +400,7 @@ h2 {
   height: 208px;
 }
 
-.pricing {
+.pricing-section {
   width: 1266px;
   margin-top: 100px 155px;
   margin-bottom: 155px;
@@ -503,31 +503,31 @@ h2 {
   margin-top: 50px;
 }
 .pricing-btn {
-  box-sizing: border-box;
-  width: 150px;
-  height: 50px;
   border-radius: 23px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .pricing-btn a {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 13px;
+  border-radius: 23px;
 }
 .pricing-btn1 {
+  padding: 16px 57px;
   background-color: var(--color-redish);
   position: relative;
   bottom: -20px;
 }
 .pricing-btn2 {
+  padding: 16px 65px;
   background-color: var(--color-primary);
   position: relative;
   bottom: -35px;
+  box-shadow: 5px 10px 14px #07ace629;
 }
 .pricing-btn3 {
+  padding: 16px 57px;
+
   background-color: var(--color-green);
   position: relative;
   bottom: -22px;
@@ -544,7 +544,7 @@ h2 {
 .pricing-item.not::before {
   background-image: url(../assets/Close.svg);
 }
-.contact {
+.contact-section {
   width: 896px;
   height: 376px;
   display: flex;
@@ -580,6 +580,8 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.contact-links a {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -616,7 +618,6 @@ input {
 }
 input::placeholder {
   cursor: pointer;
-  line-height: 20px;
 }
 .name {
   margin-bottom: 20px;
