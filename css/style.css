@@ -634,6 +634,11 @@ input::placeholder {
   cursor: pointer;
   display: flex;
   margin-top: 30px;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: none;
+  color: var(--color-graphite);
+  line-height: 17px;
 }
 .checkbox span {
   height: 24px;
@@ -648,34 +653,28 @@ input::placeholder {
   background-repeat: no-repeat;
   background-position: center;
 }
-.checkbox p {
-  font-weight: 400;
-  font-size: 12px;
-  text-transform: none;
-  color: var(--color-graphite);
-  line-height: 17px;
-}
 .btn-send {
   display: inline-block;
   cursor: pointer;
   padding: 20px 97px;
   border: 0;
   background-color: var(--color-primary);
+  box-shadow: 5px 10px 14p #07abe65b;
   color: white;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 13px;
-  text-align: left;
   line-height: 18px;
-  letter-spacing: 0;
   border-radius: 35px;
-  box-shadow: 5px 10px 14p #07ace629;
   outline: none;
   margin-top: 20px;
   justify-self: flex-end;
   align-self: flex-end;
 }
-
+.btn-send:active {
+  background: var(--color-blue1);
+  box-shadow: inset 5px 10px 12px #0784b252;
+}
 footer {
   width: 100%;
   background-color: var(--color-color-light-grey);
